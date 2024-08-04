@@ -5,9 +5,9 @@ import { FaFacebookF } from 'react-icons/fa';
 import { TfiEmail } from 'react-icons/tfi';
 
 const navigation = [
-  { name: 'Produsele noastre', href: '/produse' },
-  { name: 'Despre noi', href: '/despre' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Produsele noastre', href: 'produse' },
+  { name: 'Despre noi', href: 'despre' },
+  { name: 'Contact', href: 'contact' },
 ];
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
