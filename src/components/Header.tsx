@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className='bg-yellow-50/95 inset-x-0 top-0 z-50 border border-orange-950/20  border-t-0 fixed px-10'>
       <div className=' flex justify-between mt-2 items-center px-10'>
-        <img src='public/logo.png' alt='' className=' size-20' />
+        <img src='/logo.png' alt='' className=' size-20' />
         <div className=' flex justify-center items-center'>
           <p className=' text-end mr-10 bg-transparent'>
             Comenzi telefonice: 08575755885

@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className='relative mt-10 lg:mt-0 lg:w-1/2 lg:flex lg:justify-center overflow-hidden rounded-lg'>
               <img
-                src='public/images/borcan-miere.png'
+                src='/images/borcan-miere.png'
                 alt='Borcan de Miere Organică'
                 className='w-full max-w-md rounded-lg shadow-md h-[450px] object-cover  hover:opacity-80 transition-transform'
               />
@@ -68,7 +68,7 @@ export default function Home() {
       </div>
       <div className=' '>
         <video
-          src='public/videos/miere-video-2.mp4'
+          src='/videos/miere-video-2.mp4'
           className='inset-0 w-full h-[350px] object-cover'
           style={{
             clipPath:
