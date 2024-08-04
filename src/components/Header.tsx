@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className='bg-yellow-50/95 inset-x-0 top-0 z-50 border border-orange-950/20  border-t-0 fixed px-10'>
       <div className=' flex justify-between mt-2 items-center px-10'>
-        <img src='../../public/logo.png' alt='' className=' size-20' />
+        <img src='public/logo.png' alt='' className=' size-20' />
         <div className=' flex justify-center items-center'>
           <p className=' text-end mr-10 bg-transparent'>
             Comenzi telefonice: 08575755885
@@ -38,7 +38,7 @@ function Header() {
       >
         <div className='flex lg:flex-1'>
           <a href='/' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>Your Company</span>
+            <span className='sr-only'>Miere Bio</span>
             <h1 className=' font-bold text-3xl text-orange-400'>
               Miere<span className=' text-green-600'>Bio</span>
             </h1>
