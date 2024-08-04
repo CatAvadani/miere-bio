@@ -3,11 +3,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
 import { FaFacebookF } from 'react-icons/fa';
 import { TfiEmail } from 'react-icons/tfi';
+import { Link } from 'react-router-dom';
 
 const navigation = [
-  { name: 'Produsele noastre', href: 'produse' },
-  { name: 'Despre noi', href: 'despre' },
-  { name: 'Contact', href: 'contact' },
+  { name: 'Produsele noastre', to: '/produse' },
+  { name: 'Despre noi', to: '/despre' },
+  { name: 'Contact', to: '/contact' },
 ];
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -37,12 +38,12 @@ function Header() {
         className='flex items-center justify-between p-6 lg:px-8'
       >
         <div className='flex lg:flex-1'>
-          <a href='/' className='-m-1.5 p-1.5'>
+          <Link to='/' className='-m-1.5 p-1.5'>
             <span className='sr-only'>Miere Bio</span>
             <h1 className=' font-bold text-3xl text-orange-400'>
               Miere<span className=' text-green-600'>Bio</span>
             </h1>
-          </a>
+          </Link>
         </div>
         <div className='flex lg:hidden'>
           <button
@@ -56,13 +57,13 @@ function Header() {
         </div>
         <div className='hidden lg:flex lg:gap-x-12'>
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.name}
-              href={item.href}
+              to={item.to}
               className='text-lg font-semibold leading-6 text-gray-900 hover:text-gray-500 transition-all'
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>
@@ -93,13 +94,13 @@ function Header() {
             <div className='-my-6 divide-y divide-gray-500/10'>
               <div className='space-y-2 py-6'>
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
+                    to={item.to}
                     className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
