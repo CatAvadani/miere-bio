@@ -15,10 +15,10 @@ function Header() {
 
   return (
     <header className='bg-yellow-50/95 inset-x-0 top-0 z-50 border border-orange-950/20  border-t-0 fixed px-10'>
-      <div className=' flex justify-between mt-2 items-center px-10'>
-        <img src='/logo.png' alt='' className=' size-20' />
-        <div className=' flex justify-center items-center'>
-          <p className=' text-end mr-10 bg-transparent'>
+      <div className=' flex justify-between mt-2 items-center sm:px-10'>
+        <img src='/logo.png' alt='' className=' hidden sm:flex size-20' />
+        <div className=' flex justify-center items-center gap-8 sm:gap-0'>
+          <p className=' text-end sm:mr-10 bg-transparent text-sm sm:text-lg'>
             Comenzi telefonice: 08575755885
           </p>
           <div className=' float-end flex gap-2'>

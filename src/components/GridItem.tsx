@@ -13,7 +13,7 @@ function GridItem({ title, description, image }: GridItemProps) {
         className='w-32 h-32 mx-auto mb-4  border-4 border-white rounded-full shadow-lg'
       />
       <h3 className='text-xl font-semibold text-gray-900'>{title}</h3>
-      <p className='mt-4 text-gray-600'>{description}</p>
+      <p className='mt-4 text-gray-600 text-sm sm:text-lg'>{description}</p>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function Products() {
           <h1 className='text-center text-6xl font-bold'>Produsele noastre</h1>
           <div className='h-[400px] rounded-full overflow-hidden'>
             <video
-              src='/6421446-uhd_2160_3840_30fps.mp4'
+              src='videos/miere-video.mp4'
               className='mx-auto mt-10 w-72 max-w-2xl'
               autoPlay
               loop

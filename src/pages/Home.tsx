@@ -21,10 +21,10 @@ export default function Home() {
         <div className='mx-auto max-w-7xl py-32 sm:py-48 lg:py-56'>
           <div className='flex flex-col items-center lg:flex-row lg:items-center lg:justify-between'>
             <div className='text-center lg:text-left lg:w-1/2'>
-              <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
+              <h1 className='text-2xl mt-10  font-bold tracking-tight text-gray-900 sm:text-6xl'>
                 Miere Organică Pură de la Fermele Noastre
               </h1>
-              <p className='mt-6 text-lg leading-8 text-gray-600'>
+              <p className='mt-6 text-sm sm:text-lg leading-8 text-gray-600'>
                 Experimentează gustul naturii cu mierea noastră 100% organică,
                 recoltată din cele mai fine flori. Perfectă pentru sănătatea și
                 bunăstarea ta.
